@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: printer-server
+    env: python
+    buildCommand: ""
+    startCommand: python server.py
